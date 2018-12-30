@@ -7,12 +7,9 @@
 }
 
 .navbar-brand h1 { /* Food, LLC name */
-  /* font-family: 'Lora', serif; */
   color: black;
   font-size: 1em;
-  /* text-transform: uppercase; */
   font-weight: bold;
-  /* text-shadow: 1px 1px 1px #222; */
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
@@ -25,24 +22,32 @@
   text-decoration: none;
 }
 
-
 #nav-list {
-  margin-top: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 #nav-list a {
   color: #951C49;
   text-align: center;
+
 }
 #nav-list a:hover {
   background: #E7E7E7;
 }
+#nav-list li:first-child {
+  border-top: 0.5px solid #61122f;
+}
+#nav-list li{
+  border-bottom: 0.5px  solid #61122f;
+  background: #FFCC66;
+}
+#collapsable-nav {
+    border:none;
+}
 #collapsable-nav a { /* Collapsed nav menu text */
   font-size: 1.2em;
+
 }
-
-
-
-
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
@@ -52,14 +57,22 @@
 }
 /* END HEADER */
 
+.food {
+  background-color: #FFCC66;
+  margin: 0 auto 15px;
+}
+.title {
+  color: black;
+  font-family: Helvetica;
+  font-style: italic;
+  font-size: 130%;
+}
 body {
   background-color: #F7D358;
 }
 
 h1 {
-  margin-bottom: 15px;
   font-family: Helvetica;
-  text-align: center;
-  font-size: 175%;
+  font-size: 155%;
   color: black;
 }
